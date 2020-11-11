@@ -1,0 +1,720 @@
+{
+    "stations": [
+        {
+            "stationid": "1-GN9E-240",
+            "brandid": "1-GFYV-1",
+            "brand": "7-Eleven",
+            "code": 159,
+            "name": "7-Eleven Bexley",
+            "address": "474 Forest Road, Bexley NSW 2207",
+            "location": {
+                "latitude": -33.951524,
+                "longitude": 151.125198,
+                "distance": 1.07
+            }
+        },
+        {
+            "stationid": "1-GUP0-14",
+            "brandid": "1-GFYV-0",
+            "brand": "BP",
+            "code": 1981,
+            "name": "BP Bexley",
+            "address": "610 Forest Road, Bexley NSW 2207",
+            "location": {
+                "latitude": -33.957412,
+                "longitude": 151.118092,
+                "distance": 1.04
+            }
+        },
+        {
+            "stationid": "1-GN9E-230",
+            "brandid": "1-GFYV-1",
+            "brand": "7-Eleven",
+            "code": 148,
+            "name": "7-Eleven Penshurst",
+            "address": "612 Forest Road, Penshurst NSW 2222",
+            "location": {
+                "latitude": -33.961504,
+                "longitude": 151.079228,
+                "distance": 4.57
+            }
+        },
+        {
+            "stationid": "1-GN9E-264",
+            "brandid": "1-GFYV-1",
+            "brand": "7-Eleven",
+            "code": 185,
+            "name": "7-Eleven South Hurstville",
+            "address": "822 King Georges Road & Joffre St, South Hurstville NSW 2220",
+            "location": {
+                "latitude": -33.975997,
+                "longitude": 151.10364,
+                "distance": 2.87
+            }
+        },
+        {
+            "stationid": "1-H3ZJ-34",
+            "brandid": "1-257XHM2",
+            "brand": "Westside",
+            "code": 2093,
+            "name": "Westside Blakehurst",
+            "address": "338 Princes Highway, Blakehurst NSW 2221",
+            "location": {
+                "latitude": -33.986627,
+                "longitude": 151.112644,
+                "distance": 3.23
+            }
+        },
+        {
+            "stationid": "1-GPPT-448",
+            "brandid": "1-GFYV-2",
+            "brand": "Budget",
+            "code": 1362,
+            "name": "Budget Kingsgrove",
+            "address": "2 Commercial Rd, Kingsgrove NSW 2208",
+            "location": {
+                "latitude": -33.939641,
+                "longitude": 151.100524,
+                "distance": 3.5
+            }
+        },
+        {
+            "stationid": "1-GPPT-320",
+            "brandid": "1-GFYV-2",
+            "brand": "Budget",
+            "code": 1221,
+            "name": "Budget Earlwood",
+            "address": "200 Homer St, Earlwood NSW 2206",
+            "location": {
+                "latitude": -33.927121,
+                "longitude": 151.128572,
+                "distance": 3.73
+            }
+        },
+        {
+            "stationid": "1-GN9E-575",
+            "brandid": "1-GFYV-12",
+            "brand": "Caltex Woolworths",
+            "code": 530,
+            "name": "Caltex Woolworths Blakehurst",
+            "address": "390 Princes Highway, Blakehurst NSW 2221",
+            "location": {
+                "latitude": -33.990209,
+                "longitude": 151.113624,
+                "distance": 3.56
+            }
+        },
+        {
+            "stationid": "1-GPPT-772",
+            "brandid": "1-GFYV-0",
+            "brand": "BP",
+            "code": 1722,
+            "name": "BP Kingsgrove",
+            "address": "152 Moorefields Road, Kingsgrove NSW 2208",
+            "location": {
+                "latitude": -33.935501,
+                "longitude": 151.086374,
+                "distance": 4.81
+            }
+        },
+        {
+            "stationid": "1-3KBI3NY",
+            "brandid": "1-GFYV-0",
+            "brand": "BP",
+            "code": 18296,
+            "name": "BP South Hurstville",
+            "address": "63 CONNELLS POINT RD, SOUTH HURSTVILLE NSW 2221",
+            "location": {
+                "latitude": -33.97798,
+                "longitude": 151.103984,
+                "distance": 2.98
+            }
+        },
+        {
+            "stationid": "1-GN9E-14",
+            "brandid": "1-GFYV-4",
+            "brand": "Coles Express",
+            "code": 47,
+            "name": "Coles Express Carlton",
+            "address": "277-281 Princes Highway, Carlton NSW 2218",
+            "location": {
+                "latitude": -33.974858,
+                "longitude": 151.127273,
+                "distance": 1.58
+            }
+        },
+        {
+            "stationid": "1-GN9E-189",
+            "brandid": "1-GFYV-4",
+            "brand": "Coles Express",
+            "code": 101,
+            "name": "Coles Express Bexley",
+            "address": "306-312 Forest Road (Cnr Fredrick St), Bexley NSW 2205",
+            "location": {
+                "latitude": -33.945714,
+                "longitude": 151.128092,
+                "distance": 1.66
+            }
+        },
+        {
+            "stationid": "1-GPPT-881",
+            "brandid": "1-GFYV-0",
+            "brand": "BP",
+            "code": 1843,
+            "name": "BP Carss Park",
+            "address": "294 Princess Hwy, Carss Park NSW 2221",
+            "location": {
+                "latitude": -33.982002,
+                "longitude": 151.11782,
+                "distance": 2.57
+            }
+        },
+        {
+            "stationid": "1-32DWJQ5",
+            "brandid": "1-GFYV-12",
+            "brand": "Caltex Woolworths",
+            "code": 17103,
+            "name": "Caltex Star Mart Penshurst",
+            "address": "641 King Georges Rd, PENSHURST NSW 2222",
+            "location": {
+                "latitude": -33.959853,
+                "longitude": 151.089112,
+                "distance": 3.66
+            }
+        },
+        {
+            "stationid": "1-2MY3EWI",
+            "brandid": "1-GFYV-3",
+            "brand": "Caltex",
+            "code": 2383,
+            "name": "Caltex Kingsgrove",
+            "address": "351-357 Stoney Creek, KINGSGROVE NSW 2208",
+            "location": {
+                "latitude": -33.951446,
+                "longitude": 151.092424,
+                "distance": 3.5
+            }
+        },
+        {
+            "stationid": "1-GPPT-639",
+            "brandid": "1-GFYV-5",
+            "brand": "Independent",
+            "code": 1574,
+            "name": "7 Express Carlton",
+            "address": "370 Railway Parade, Carlton NSW 2216",
+            "location": {
+                "latitude": -33.969142,
+                "longitude": 151.122205,
+                "distance": 1.11
+            }
+        },
+        {
+            "stationid": "1-GPPT-607",
+            "brandid": "1-GFYV-2",
+            "brand": "Budget",
+            "code": 1539,
+            "name": "Budget Bexley",
+            "address": "295 Forrest Road, Bexley NSW 2207",
+            "location": {
+                "latitude": -33.944476,
+                "longitude": 151.128349,
+                "distance": 1.8
+            }
+        },
+        {
+            "stationid": "1-GN9E-19",
+            "brandid": "1-GFYV-4",
+            "brand": "Coles Express",
+            "code": 102,
+            "name": "Coles Express Hurstville",
+            "address": "396-404 Forest Road, Hurstville NSW 2220",
+            "location": {
+                "latitude": -33.964882,
+                "longitude": 151.09907,
+                "distance": 2.77
+            }
+        },
+        {
+            "stationid": "1-GN9E-21",
+            "brandid": "1-GFYV-4",
+            "brand": "Coles Express",
+            "code": 125,
+            "name": "Coles Express Kingsgrove",
+            "address": "137-141 Kingsgrove Road, Kingsgrove NSW 2208",
+            "location": {
+                "latitude": -33.932785,
+                "longitude": 151.099086,
+                "distance": 4.13
+            }
+        },
+        {
+            "stationid": "1-GN9E-15",
+            "brandid": "1-GFYV-4",
+            "brand": "Coles Express",
+            "code": 58,
+            "name": "Coles Express South Hurstville",
+            "address": "835 King Georges Road, South Hurstville NSW 2221",
+            "location": {
+                "latitude": -33.978745,
+                "longitude": 151.105526,
+                "distance": 2.93
+            }
+        },
+        {
+            "stationid": "1-GPPT-886",
+            "brandid": "1-GFYV-6",
+            "brand": "Metro Fuel",
+            "code": 1848,
+            "name": "Metro Fuel Kogarah",
+            "address": "120 Rocky Points Rd, Kogarah NSW 2217",
+            "location": {
+                "latitude": -33.976923,
+                "longitude": 151.136821,
+                "distance": 1.95
+            }
+        },
+        {
+            "stationid": "1-GPPT-588",
+            "brandid": "1-GFYV-2",
+            "brand": "Budget",
+            "code": 1517,
+            "name": "Budget Kogarah",
+            "address": "132 Princes Hway, Kogarah NSW 2217",
+            "location": {
+                "latitude": -33.974841,
+                "longitude": 151.12831,
+                "distance": 1.57
+            }
+        },
+        {
+            "stationid": "1-GPPT-648",
+            "brandid": "1-GFYV-5",
+            "brand": "Independent",
+            "code": 1584,
+            "name": "Independent Kogarah",
+            "address": "81 Barton St, Kogarah NSW 2217",
+            "location": {
+                "latitude": -33.973716,
+                "longitude": 151.146124,
+                "distance": 2.16
+            }
+        },
+        {
+            "stationid": "1-GPPT-685",
+            "brandid": "1-GFYV-0",
+            "brand": "BP",
+            "code": 1625,
+            "name": "BP Bexley North",
+            "address": "369C Bexley Road, Bexley NSW 2207",
+            "location": {
+                "latitude": -33.945827,
+                "longitude": 151.12302,
+                "distance": 1.73
+            }
+        },
+        {
+            "stationid": "1-3DKIADK",
+            "brandid": "1-GFYV-0",
+            "brand": "BP",
+            "code": 18086,
+            "name": "BP Rockdale",
+            "address": "444 West Botany Street, ROCKDALE NSW 2216",
+            "location": {
+                "latitude": -33.959909,
+                "longitude": 151.145739,
+                "distance": 1.58
+            }
+        },
+        {
+            "stationid": "1-GN9E-213",
+            "brandid": "1-GFYV-1",
+            "brand": "7-Eleven",
+            "code": 129,
+            "name": "7-Eleven Rockdale",
+            "address": "99 Railway Street (Corner Frederick Street), Rockdale NSW 2216",
+            "location": {
+                "latitude": -33.952566,
+                "longitude": 151.135774,
+                "distance": 1.12
+            }
+        },
+        {
+            "stationid": "1-GN9E-345",
+            "brandid": "1-GFYV-1",
+            "brand": "7-Eleven",
+            "code": 275,
+            "name": "7-Eleven Rockdale",
+            "address": "293 West Botany Street (Corner Bestic Street), Rockdale NSW 2216",
+            "location": {
+                "latitude": -33.949919,
+                "longitude": 151.148692,
+                "distance": 2.2
+            }
+        },
+        {
+            "stationid": "1-GN9E-709",
+            "brandid": "1-GFYV-12",
+            "brand": "Caltex Woolworths",
+            "code": 679,
+            "name": "Caltex Woolworths Kogarah",
+            "address": "69 Princes Hwy (cnr Gladstone St), Kogarah NSW 2217",
+            "location": {
+                "latitude": -33.963237,
+                "longitude": 151.137173,
+                "distance": 0.83
+            }
+        },
+        {
+            "stationid": "1-2WKOTUU",
+            "brandid": "1-GFYV-3",
+            "brand": "Caltex",
+            "code": 2474,
+            "name": "Caltex Kogarah",
+            "address": "29 President Ave, KOGARAH NSW 2217",
+            "location": {
+                "latitude": -33.965163,
+                "longitude": 151.14115,
+                "distance": 1.26
+            }
+        },
+        {
+            "stationid": "1-GN9E-691",
+            "brandid": "1-GFYV-12",
+            "brand": "Caltex Woolworths",
+            "code": 659,
+            "name": "Caltex Woolworths Rockdale",
+            "address": "314 Princes Highway (Cnr Banksia Street), Banksia NSW 2216",
+            "location": {
+                "latitude": -33.945681,
+                "longitude": 151.141696,
+                "distance": 2.06
+            }
+        },
+        {
+            "stationid": "1-GPPT-7",
+            "brandid": "1-GFYV-0",
+            "brand": "BP",
+            "code": 1641,
+            "name": "BP Sans Souci",
+            "address": "518 Rocky Point Road, Sans Souci NSW 2219",
+            "location": {
+                "latitude": -33.992469,
+                "longitude": 151.132408,
+                "distance": 3.54
+            }
+        },
+        {
+            "stationid": "1-GN9E-703",
+            "brandid": "1-GFYV-12",
+            "brand": "Caltex Woolworths",
+            "code": 673,
+            "name": "Caltex Woolworths Marrickville",
+            "address": "490 Illawarra Road (Cnr Hill Street), Marrickville NSW 2204",
+            "location": {
+                "latitude": -33.918487,
+                "longitude": 151.146002,
+                "distance": 4.95
+            }
+        },
+        {
+            "stationid": "1-2WB2P89",
+            "brandid": "1-GFYV-3",
+            "brand": "Caltex",
+            "code": 2472,
+            "name": "Caltex Star Mart Tempe",
+            "address": "775 Princes Hwy, TEMPE NSW 2044",
+            "location": {
+                "latitude": -33.925315,
+                "longitude": 151.160059,
+                "distance": 4.88
+            }
+        },
+        {
+            "stationid": "1-GN9E-150",
+            "brandid": "1-GFYV-4",
+            "brand": "Coles Express",
+            "code": 59,
+            "name": "Coles Express Ramsgate",
+            "address": "274-276 Grand Parade (Cnr Ramsgate Rd), Ramsgate NSW 2217",
+            "location": {
+                "latitude": -33.985745,
+                "longitude": 151.147385,
+                "distance": 3.27
+            }
+        }
+    ],
+    "prices": [
+        {
+            "stationcode": 47,
+            "fueltype": "P95",
+            "price": 119.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-06 01:29:55"
+        },
+        {
+            "stationcode": 58,
+            "fueltype": "P95",
+            "price": 121.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-05 23:31:54"
+        },
+        {
+            "stationcode": 59,
+            "fueltype": "P95",
+            "price": 161.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-13 01:35:59"
+        },
+        {
+            "stationcode": 101,
+            "fueltype": "P95",
+            "price": 119.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-06 04:32:02"
+        },
+        {
+            "stationcode": 102,
+            "fueltype": "P95",
+            "price": 120.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-06 01:25:55"
+        },
+        {
+            "stationcode": 125,
+            "fueltype": "P95",
+            "price": 120.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-06 01:25:55"
+        },
+        {
+            "stationcode": 129,
+            "fueltype": "P95",
+            "price": 157.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-11 04:41:23"
+        },
+        {
+            "stationcode": 148,
+            "fueltype": "P95",
+            "price": 116.4,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-07 01:58:02"
+        },
+        {
+            "stationcode": 159,
+            "fueltype": "P95",
+            "price": 114.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-06 22:27:08"
+        },
+        {
+            "stationcode": 185,
+            "fueltype": "P95",
+            "price": 116.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-05 22:13:11"
+        },
+        {
+            "stationcode": 275,
+            "fueltype": "P95",
+            "price": 157.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-11 03:04:39"
+        },
+        {
+            "stationcode": 530,
+            "fueltype": "P95",
+            "price": 117.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-06 02:31:03"
+        },
+        {
+            "stationcode": 659,
+            "fueltype": "P95",
+            "price": 158.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-11 02:16:20"
+        },
+        {
+            "stationcode": 673,
+            "fueltype": "P95",
+            "price": 158.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-10 05:46:15"
+        },
+        {
+            "stationcode": 679,
+            "fueltype": "P95",
+            "price": 158.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-11 06:01:20"
+        },
+        {
+            "stationcode": 1221,
+            "fueltype": "P95",
+            "price": 117.5,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-03 11:13:39"
+        },
+        {
+            "stationcode": 1362,
+            "fueltype": "P95",
+            "price": 116.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-04 21:27:52"
+        },
+        {
+            "stationcode": 1517,
+            "fueltype": "P95",
+            "price": 129.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-02 20:26:07"
+        },
+        {
+            "stationcode": 1539,
+            "fueltype": "P95",
+            "price": 120.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-04 20:15:01"
+        },
+        {
+            "stationcode": 1574,
+            "fueltype": "P95",
+            "price": 120.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-03 22:25:43"
+        },
+        {
+            "stationcode": 1584,
+            "fueltype": "P95",
+            "price": 130.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-06-17 22:18:07"
+        },
+        {
+            "stationcode": 1625,
+            "fueltype": "P95",
+            "price": 139.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-13 23:15:09"
+        },
+        {
+            "stationcode": 1641,
+            "fueltype": "P95",
+            "price": 158.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-12 01:25:35"
+        },
+        {
+            "stationcode": 1722,
+            "fueltype": "P95",
+            "price": 117.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-08 03:40:24"
+        },
+        {
+            "stationcode": 1843,
+            "fueltype": "P95",
+            "price": 119.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-05 21:24:25"
+        },
+        {
+            "stationcode": 1848,
+            "fueltype": "P95",
+            "price": 125.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-12 09:02:58"
+        },
+        {
+            "stationcode": 1981,
+            "fueltype": "P95",
+            "price": 115.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-07 01:27:04"
+        },
+        {
+            "stationcode": 2093,
+            "fueltype": "P95",
+            "price": 116.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-05 23:47:26"
+        },
+        {
+            "stationcode": 2383,
+            "fueltype": "P95",
+            "price": 119.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-07 21:53:21"
+        },
+        {
+            "stationcode": 2472,
+            "fueltype": "P95",
+            "price": 158.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-10 04:48:44"
+        },
+        {
+            "stationcode": 2474,
+            "fueltype": "P95",
+            "price": 158.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-11 03:48:49"
+        },
+        {
+            "stationcode": 17103,
+            "fueltype": "P95",
+            "price": 119.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-05 21:48:39"
+        },
+        {
+            "stationcode": 18086,
+            "fueltype": "P95",
+            "price": 155.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-11 10:49:14"
+        },
+        {
+            "stationcode": 18296,
+            "fueltype": "P95",
+            "price": 118.9,
+            "priceunit": "litre",
+            "description": null,
+            "lastupdated": "2020-07-06 06:52:56"
+        }
+    ]
+}

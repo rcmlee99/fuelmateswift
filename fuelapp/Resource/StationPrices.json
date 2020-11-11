@@ -1,0 +1,34 @@
+{
+    "prices": [
+        {
+            "fueltype": "LPG",
+            "price": 74.9,
+            "lastupdated": "16/05/2020 05:04:48"
+        },
+        {
+            "fueltype": "E10",
+            "price": 100.9,
+            "lastupdated": "06/07/2020 22:30:47"
+        },
+        {
+            "fueltype": "U91",
+            "price": 102.9,
+            "lastupdated": "06/07/2020 22:30:47"
+        },
+        {
+            "fueltype": "P95",
+            "price": 114.9,
+            "lastupdated": "06/07/2020 22:27:08"
+        },
+        {
+            "fueltype": "PDL",
+            "price": 115.9,
+            "lastupdated": "05/07/2020 23:52:43"
+        },
+        {
+            "fueltype": "P98",
+            "price": 120.9,
+            "lastupdated": "06/07/2020 22:27:08"
+        }
+    ]
+}
