@@ -134,16 +134,18 @@ struct MapView: UIViewRepresentable {
     @Binding var selectedAnnotation: CustomPointAnnotation?
     @Binding var isLoading: Bool
     @Binding var showAlert: Bool
+    @Binding var refreshView: Bool
     @Binding var message: String
     @ObservedObject var locationManager = LocationManager()
     
-    init(centerCoordinate: CLLocationCoordinate2D, isSelected: Binding<Bool> = .constant(true), selectedAnnotation: Binding<CustomPointAnnotation?>, isLoading: Binding<Bool> = .constant(false), showAlert: Binding<Bool> = .constant(false), message: Binding<String>) {
+    init(centerCoordinate: CLLocationCoordinate2D, isSelected: Binding<Bool> = .constant(true), selectedAnnotation: Binding<CustomPointAnnotation?>, isLoading: Binding<Bool> = .constant(false), showAlert: Binding<Bool> = .constant(false), message: Binding<String>, refreshView: Binding<Bool> = .constant(false)) {
         _isSelected = isSelected
         _selectedAnnotation = selectedAnnotation
         self.centerCoordinate = centerCoordinate
         _isLoading = isLoading
         _showAlert = showAlert
         _message = message
+        _refreshView = refreshView
    }
     
     func makeUIView(context: Context) -> MKMapView {
@@ -153,6 +155,7 @@ struct MapView: UIViewRepresentable {
         let region = MKCoordinateRegion(center: locationManager.location?.coordinate ?? centerCoordinate, span: span)
         mapView.setRegion(region, animated: true)
         mapView.showsUserLocation = true
+        
         return mapView
     }
 
@@ -161,5 +164,10 @@ struct MapView: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: MKMapView, context: Context) {
+        if (refreshView) {
+            print("UpdateUI")
+            context.coordinator.nearbyStation(uiView)
+            refreshView = false
+        }
     }
 }

@@ -17,15 +17,34 @@ struct MapStationView: View {
     @State var message: String = ""
     @State var selectedAnnotation: CustomPointAnnotation?
     @State var centerCoordinate: CLLocationCoordinate2D
-
+    @State var refreshView: Bool = false
+    
     var body: some View {
-        VStack(spacing: 30) {
-            ActivityIndicatorView(isAnimating: isLoading).configure { $0.color = .red }
-            MapView(centerCoordinate: centerCoordinate, isSelected: $isPresented, selectedAnnotation: $selectedAnnotation, isLoading: $isLoading, showAlert: $showAlert, message: $message)
-        }.sheet(isPresented: $isPresented) {
-            StationDetailView(selectedAnnotation: self.$selectedAnnotation)
-        }.alert(isPresented: $showAlert) {
-            Alert(title: Text(message))
+        ZStack {
+            VStack(spacing: 30) {
+                ActivityIndicatorView(isAnimating: isLoading).configure { $0.color = .red }
+                MapView(centerCoordinate: centerCoordinate, isSelected: $isPresented, selectedAnnotation: $selectedAnnotation, isLoading: $isLoading, showAlert: $showAlert, message: $message, refreshView: $refreshView)
+            }.sheet(isPresented: $isPresented) {
+                StationDetailView(selectedAnnotation: self.$selectedAnnotation)
+            }.alert(isPresented: $showAlert) {
+                Alert(title: Text(message))
+            }.onAppear() {
+                refreshView = true
+            }
+            VStack(alignment: .trailing) {
+                Spacer()
+                Button(action: {
+                    refreshView = true
+                }) {
+                    HStack() {
+                        Spacer()
+                        Image(systemName: "arrow.clockwise.circle.fill")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .padding(20)
+                    }
+                }
+            }
         }
     }
 }
