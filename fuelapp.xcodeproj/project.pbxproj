@@ -62,6 +62,7 @@
 		EC02E3F2255A479100042045 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		EC02E3F3255A479100042045 /* Parsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parsing.swift; sourceTree = "<group>"; };
 		EC02E3FE255A6AFA00042045 /* FuelServiceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelServiceResponse.swift; sourceTree = "<group>"; };
+		EC644A7B2565D79100ACE4B9 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 		ECAD904F255B85F500A20858 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ECBB2F1A24B597CA00336F65 /* fuelapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fuelapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBB2F1D24B597CA00336F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -158,6 +159,7 @@
 		ECBB2F1124B597CA00336F65 = {
 			isa = PBXGroup;
 			children = (
+				EC644A7B2565D79100ACE4B9 /* CONTRIBUTING.md */,
 				ECAD904F255B85F500A20858 /* README.md */,
 				ECBB2F1C24B597CA00336F65 /* fuelapp */,
 				ECBB2F3324B597D000336F65 /* fuelappTests */,

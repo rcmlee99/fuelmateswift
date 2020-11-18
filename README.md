@@ -1,4 +1,4 @@
-# Fuelmate App
+# Fuelmate Swift App
 
 This is a rewritten, lighter and open source version of NSW Fuel Check Mobile App in SwiftUI + Combine. 
 
@@ -17,4 +17,7 @@ To use MapKit and UIActivityIndicatorView in SwiftUI, I wrap with the UIViewRepr
 
 You can apply for NSW Fuel API Key at https://api.nsw.gov.au
 
+## Contributors
 
+[[Become a contributor](CONTRIBUTING.md)].
+\
