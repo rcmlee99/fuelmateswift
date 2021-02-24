@@ -19,4 +19,8 @@ You can apply for NSW Fuel API Key at https://api.nsw.gov.au
 
 ## Contributors
 
-[[Become a contributor](CONTRIBUTING.md)].
+Thanks goes to these wonderful people. [[Become a contributor](CONTRIBUTING.md)].
+
+<a href="https://github.com/react-hook-form/react-hook-form/graphs/contributors">
+    <img src="https://opencollective.com/react-hook-form/contributors.svg?width=950" />
+</a>
